@@ -1,0 +1,12 @@
+NOTE: 
+- Add your ACCESS_TOKEN, ACCESS_TOKEN_SECRET, CONSUMER_KEY, CONSUMER_SECRET to credentials.py
+- Add Twitter User Ids line by line to twitter_ids file to fetch streaming tweets respective to twitter ids.
+Then proceed.
+
+Requirement : python, textblob, tweepy
+
+To run script : python main.py
+
+This script allows you to calulate the polarity of sentiment analysis of a tweet using textblob.
+Twitter Stream api is used for getting tweets specific to users whose id's are mentioned in twitter_ids file.
+For using Twitter Stream api Tweepy library is used.
